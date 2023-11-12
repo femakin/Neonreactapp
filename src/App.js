@@ -22,7 +22,7 @@ function App() {
       <ul>
         {contacts.map(contact => (
           <li key={contact.id}>
-            <strong>{contact.name}</strong>: {contact.email}
+            <strong>{contact.phone}</strong>: {contact.phone}
           </li>
         ))}
       </ul>
